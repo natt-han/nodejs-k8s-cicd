@@ -45,6 +45,6 @@ spec:
   ports:
     - name: nodejs-k8s-cicd
       protocol: TCP
-      nodePort: 5000
+      nodePort: 30101
       port: 5000
       targetPort: 5000
