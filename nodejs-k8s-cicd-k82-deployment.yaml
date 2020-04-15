@@ -21,7 +21,7 @@ spec:
         app: nodejs-k8s-cicd
     spec:
       imagePullSecrets:
-        - name: regcred
+        - name: ocirsecret
       containers:
         - name: nodejs-k8s-cicd
           image: 172.28.128.3:30700/nodejs-k8s-cicd:latest
